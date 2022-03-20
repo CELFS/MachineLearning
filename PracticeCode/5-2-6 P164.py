@@ -70,12 +70,12 @@ x = np.linspace(-3, 3, 100)
 
 plt.plot(train_z, train_y, 'o')
 plt.plot(x, f(x))
-# plt.show()
+plt.show()
 
 # Step 7 【数据始终与例题不同，但差距不大】【经核查，书籍源代码运行结果与此一致，问题出在哪里？环境的迁移是否会影响代码的内部逻辑？】
-print(f(standardize(100)))
-print(f(standardize(200)))
-print(f(standardize(300)))
+# print(f(standardize(100)))
+# print(f(standardize(200)))
+# print(f(standardize(300)))
 
 
 
