@@ -1,3 +1,4 @@
+# A - Practice codes from 《白话机器学习的数学》
 print(0.5)
 print(1 + 2)
 print(3 - 4)
